@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain-openai = "*"
+langchain-pinecone = "*"
+langchainhub = "*"
+black = "*"
+python-dotenv = "*"
+langchain-ollama = "*"
+google-genai = "*"
+pypdf2 = "*"
+chromadb = "*"
+"google.generativeai" = "*"
+langchain-google-genai = "*"
+langchain = "*"
+langchain-community = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
